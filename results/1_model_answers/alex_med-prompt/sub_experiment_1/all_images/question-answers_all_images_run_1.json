@@ -1,0 +1,1102 @@
+[
+    {
+        "file_name": "image_1.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the left of the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the left of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_2.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_3.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot to the left of the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_4.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_5.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_6.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_7.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_8.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_9.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_10.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_11.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_12.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_13.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_14.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_15.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the left of the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the left of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_16.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_17.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_18.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_19.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_20.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_21.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_22.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_23.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_24.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_25.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_26.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_27.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_28.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_29.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_30.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_31.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_32.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_33.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_34.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "1",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_35.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_36.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_37.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_38.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "1",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_39.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot to the right of the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_40.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot below the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_41.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot to the right of the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_42.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot to the right of the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_43.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_44.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_45.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_46.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_47.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_48.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_49.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_50.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_51.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_52.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_53.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_54.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_55.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_56.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_57.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_58.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_59.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_60.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_61.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_62.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_63.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_64.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_65.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_66.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_67.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_68.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot to the right of the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_69.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_70.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the left of the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the left of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_71.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_72.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "1",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_73.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_74.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_75.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_76.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_77.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_78.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_79.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_80.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot to the right of the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_81.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_82.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_83.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "1",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_84.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot below the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot to the right of the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot below the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_85.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_86.png",
+        "results_call": [
+            {
+                "question": "Is the red dot above the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot above the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot above the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_87.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_88.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_89.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_90.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "1",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_91.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot below the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_92.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_93.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_94.png",
+        "results_call": [
+            {
+                "question": "Is the red dot to the right of the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the red dot to the right of the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_95.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the left of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_96.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the right of the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot below the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot to the right of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_97.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot to the left of the red dot?",
+                "model_answer": "1",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the blue dot to the left of the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_98.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_99.png",
+        "results_call": [
+            {
+                "question": "Is the blue dot above the red dot?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the red dot above the blue dot? A: 1\nNow answer the real question:\n\nQ: Is the blue dot above the red dot?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_100.png",
+        "results_call": [
+            {
+                "question": "Is the red dot below the blue dot?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the blue dot to the right of the red dot? A: 0\nNow answer the real question:\n\nQ: Is the red dot below the blue dot?"
+            }
+        ]
+    }
+]
