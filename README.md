@@ -2,6 +2,10 @@
 <br/><br/>
 This repository contains all necessary files, organized into **three subfolders**:
 <br/><br/>
+### 🗂️ **FineTuning**  
+ `finetune_chatgpt` – It has the README file with the complete description of the fine-tuning process.
+
+
 
 ### 🗂️ **Dataset Overview**  
  `dataset` – Example cases from each experimental setup presented in the paper (images and corresponding question-answer pairs) 
