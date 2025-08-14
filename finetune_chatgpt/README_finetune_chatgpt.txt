@@ -1,6 +1,8 @@
 Fine-Tuning GPT-4o 
 
-This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-08-06` on a MISR dataset medical images. The pipeline handles data preparation, splitting, conversion, fine-tuning, and job monitoring. The more details and results are shown in finetune_chatgpt.docx file.
+This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-08-06` on a MISR dataset medical images. The pipeline handles data preparation, splitting, conversion, fine-tuning, and job monitoring.
+
+The more details and results are shown in finetune_chatgpt.docx file.
 
 
  Pipeline Overview
