@@ -26,7 +26,18 @@ This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-
   - Starts fine-tuning on `gpt-4o-2024-08-06`.
   - Monitors job ID and status.
 
-The fine-tuning was performed using Supervised Fine-Tuning (SFT), specifically for vision-based tasks using GPT-4o. The documentation can be found here.  The dataset was prepared in .jsonl format and uploaded via the OpenAI API for training. While OpenAI does not publicly disclose whether the fine-tuning involves full model training or a parameter-efficient approach such as LoRA (Low-Rank Adaptation), several key indicators suggest the latter. For example, Microsoft Azure’s OpenAI service explicitly uses LoRA for fine-tuning the GPT-3.5 Turbo model (link),, and OpenAI’s own open-source models (e.g., gpt-oss) support LoRA-based fine-tuning. Additionally, in this project, the fine-tuning process took only approximately 95 minutes for 1220 image-text pairs, which strongly suggests that the process involved partial fine-tuning (e.g., adapter-based methods like LoRA, IA3, Adapter Tuning) rather than full parameter updates. LoRA is most common and standard adapter-based fine-tuning method.
+The fine-tuning was performed using Supervised Fine-Tuning (SFT), specifically for vision-based tasks using GPT-4o. The documentation can be found here.
+
+The dataset was prepared in .jsonl format and uploaded via the OpenAI API for training.
+
+While OpenAI does not publicly disclose whether the fine-tuning involves full model training or a parameter-efficient approach such as LoRA (Low-Rank Adaptation), several key indicators suggest the latter.
+
+For example, Microsoft Azure’s OpenAI service explicitly uses LoRA for fine-tuning the GPT-3.5 Turbo model (link),, and OpenAI’s own open-source models (e.g., gpt-oss) support LoRA-based fine-tuning.
+
+Additionally, in this project, the fine-tuning process took only approximately 95 minutes for 1220 image-text pairs, which strongly suggests that the process involved partial fine-tuning (e.g., adapter-based methods like LoRA, IA3, Adapter Tuning) rather than full parameter updates.
+
+LoRA is most common and standard adapter-based fine-tuning method.
+
 
 
 5. status.py
