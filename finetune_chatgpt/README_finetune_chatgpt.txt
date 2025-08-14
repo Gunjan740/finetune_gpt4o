@@ -51,4 +51,4 @@ After running the complete pipeline, you will:
 
 Fine tuned model : ft:gpt-4o-2024-08-06:viscom::Bp0Y8FmM
 
-This model can only be accessed by our own OpenAI's API.
+This model can only be accessed by our own OpenAI's API. You can export the API in Terminal using export OPENAI_API_KEY='the key'
