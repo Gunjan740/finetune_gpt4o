@@ -47,3 +47,6 @@ Final Output
 After running the complete pipeline, you will:
 - Have a fine-tuned GPT-4o model tailored to our dataset.
 - Be able to compare performance before vs. after fine-tuning using separate evaluation scripts.
+
+
+Procedure:
