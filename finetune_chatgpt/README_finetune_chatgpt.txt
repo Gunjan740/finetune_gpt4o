@@ -27,7 +27,7 @@ This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-
   - Monitors job ID and status.
 
 The fine tuning is done using LoRA (Low-Rank Adaptation) which is a parameter-efficient fine-tuning technique that adapts large language models by inserting small trainable matrices into specific layers (typically attention layers) while keeping the original model weights frozen. Instead of updating the full weight matrix 
-W, LoRA learns two low-rank matrices A and B such that the effective weight becomes W+BA. This approach significantly reduces the number of trainable parameters, lowers memory and compute requirements, and enables fast domain-specific fine-tuning without altering the base model.
+W, LoRA learns two low-rank matrices A and B such that the effective weight becomes W+BA. This approach significantly reduces the number of trainable parameters, lowers memory and compute requirements, and enables fast domain-specific fine-tuning without altering the base model. During finetunig, other hyperparameters like epochs, learning_rate_multiplier, lora_r, lora_dropout and lora_alpha can be optimized. Currently number of epochs are 3 and lora parameters and learning rate multipliers are kept as default.
 
 
 5. status.py
@@ -55,3 +55,4 @@ After running the complete pipeline, you will:
 Fine tuned model : ft:gpt-4o-2024-08-06:viscom::Bp0Y8FmM
 
 This model can only be accessed by our own OpenAI's API. You can export the API in Terminal using export OPENAI_API_KEY='the key'
+ 
