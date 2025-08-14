@@ -1,6 +1,6 @@
 Fine-Tuning GPT-4o 
 
-This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-08-06` on a MISR dataset medical images. The pipeline handles data preparation, splitting, conversion, fine-tuning, and job monitoring.
+This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-08-06` on a MISR dataset medical images. The pipeline handles data preparation, splitting, conversion, fine-tuning, and job monitoring. The more details and results are shown in finetune_chatgpt.docx file.
 
 
  Pipeline Overview
@@ -25,6 +25,9 @@ This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-
   - Uploads training data.
   - Starts fine-tuning on `gpt-4o-2024-08-06`.
   - Monitors job ID and status.
+
+The fine tuning is done using LoRA (Low-Rank Adaptation) which is a parameter-efficient fine-tuning technique that adapts large language models by inserting small trainable matrices into specific layers (typically attention layers) while keeping the original model weights frozen. Instead of updating the full weight matrix 
+W, LoRA learns two low-rank matrices A and B such that the effective weight becomes W+BA. This approach significantly reduces the number of trainable parameters, lowers memory and compute requirements, and enables fast domain-specific fine-tuning without altering the base model.
 
 
 5. status.py
