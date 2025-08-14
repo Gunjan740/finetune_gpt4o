@@ -4,6 +4,7 @@ This repository contains all necessary files, organized into **three subfolders*
 <br/><br/>
 ### 🗂️ **FineTuning**  
  `finetune_chatgpt` – It has the README file with the complete description of the fine-tuning process.
+ It has finetune_chatgpt.docx file for steps and results.
 
 
 
