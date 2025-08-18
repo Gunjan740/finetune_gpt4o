@@ -5,19 +5,26 @@ This directory contains all the scripts and data used to fine-tune `gpt-4o-2024-
 The more details and results are shown in finetune_chatgpt.docx file.
 
 
- Pipeline Overview
+ Pipeline Overview (Run the pipeline in the same order)
+Note:
+1. To run this pipeline you need to change the folder path information or file path information in these upcoming scripts. The details of which path to change are provided in finetune_chatgpt.docx file.
+2. You need to export the OpenAI's API key. You can do that in Terminal using export OPENAI_API_KEY=your key.
+
 
 1. split_data.py
 - Purpose: Randomly selects 1220 images (1/4th of images in RQ2/image_letters) from the complete dataset for fine-tuning.
 - Output: Copies selected images to a `test_data` folder and logs filenames in `fine_tuning_images.txt`. The test_data folder is used for finetuning.
+- Change the file or folders path accordingly.
 
 2. split_qa_letters.py
 - Purpose: Filters the original QA JSON (`qa_letters.json`) to exclude the 1220 finetuning images.
 - Output: Saves the remaining QA entries to `qa_letters_inference.json` for use as test data with all_experiments_chatgpt.py.
 - Includes: Verification to ensure all referenced image files are present.
+- Change the file or folders path accordingly.
 
 3. generate_jsonl.py
 - Purpose: Converts the finetuning subset of QA data into OpenAI’s fine-tuning `.jsonl` format.
+- Change the file or folders path accordingly.
 - Input: `qa_letters.json` and `fine_tuning_images.txt`.
 - Output: `vision_train_1220.jsonl`.
 
